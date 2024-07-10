@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`UserMessage should match the snapshot for error message 1`] = `
+<div>
+  <p
+    aria-live="assertive"
+    class="StyledUserMessage-sc-16zzyai-0 eHVwuF"
+    type="error"
+  >
+    Error message
+  </p>
+</div>
+`;
+
+exports[`UserMessage should match the snapshot for info message 1`] = `
+<div>
+  <p
+    aria-live="polite"
+    class="StyledUserMessage-sc-16zzyai-0 iAnMCV"
+    type="info"
+  >
+    Info message
+  </p>
+</div>
+`;

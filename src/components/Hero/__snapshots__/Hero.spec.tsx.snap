@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Hero should match the snapshot 1`] = `
+<div>
+  <header
+    class="StyledHero__StyledWrapper-sc-19xd1yq-0 flLjYk"
+  >
+    <div
+      class="StyledHero__StyledContentContainer-sc-19xd1yq-1 cVDaAR"
+    >
+      <p
+        class="StyledHero__StyledTitle-sc-19xd1yq-2 jojgOh"
+      >
+        Yarn Store
+      </p>
+      <h1
+        class="StyledHero__StyledDescription-sc-19xd1yq-3 dmuowE"
+      >
+        Order your favorite products made using our unique yarn colors that everyone loves!
+      </h1>
+    </div>
+  </header>
+</div>
+`;

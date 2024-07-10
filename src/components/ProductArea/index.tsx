@@ -1,0 +1,1 @@
+export { ProductArea } from './ProductArea';

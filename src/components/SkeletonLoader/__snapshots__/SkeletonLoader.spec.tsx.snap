@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SkeletonLoader should match the snapshot 1`] = `
+<div>
+  <div
+    class="StyledSkeletonLoader__StyledSkeletonItem-sc-6m5og6-0 hFPA-dX"
+  />
+  <div
+    class="StyledSkeletonLoader__StyledSkeletonItem-sc-6m5og6-0 hFPA-dX"
+  />
+  <div
+    class="StyledSkeletonLoader__StyledSkeletonItem-sc-6m5og6-0 hFPA-dX"
+  />
+  <div
+    class="StyledSkeletonLoader__StyledSkeletonItem-sc-6m5og6-0 hFPA-dX"
+  />
+  <div
+    class="StyledSkeletonLoader__StyledSkeletonItem-sc-6m5og6-0 hFPA-dX"
+  />
+  <div
+    class="StyledSkeletonLoader__StyledSkeletonItem-sc-6m5og6-0 hFPA-dX"
+  />
+</div>
+`;
