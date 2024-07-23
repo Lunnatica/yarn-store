@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react';
+import { useCallback, useEffect, useState } from 'react';
 
 import { Product } from '../../types/types';
 import { DetailModal } from '../DetailModal';
@@ -13,10 +13,13 @@ export const ProductArea: React.FC = () => {
   const [selectedProduct, setSelectedProduct] = useState<Product>(null);
   const [productListState, setProductListState] = useState<ProductListState>('loading');
 
-  const openModal = (product: Product) => {
-    setSelectedProduct(product);
-    setOpen(true);
-  };
+  const openModal = useCallback(
+    (product: Product) => {
+      setSelectedProduct(product);
+      setOpen(true);
+    },
+    [setSelectedProduct, setOpen]
+  );
 
   const fetchProducts = async (query?: string) => {
     try {
