@@ -4,7 +4,7 @@ Sample app developed with TypeScript, Next.js and Styled Components.
 
 Some key features:
 
-- Implemented a Skeleton Loader to increase perceived performance during data fetching, and avoid Content Layout Shift.
+- Implemented a Skeleton Loader to increase perceived performance during data fetching and avoid Content Layout Shift.
 - Implemented debouncing in the search input to avoid unnecessary API queries while the user is still typing.
 - Ensured accessibility of the page (e.g. using aria-live to announce order updates or errors to screen reader users).
 
