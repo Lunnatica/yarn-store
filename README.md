@@ -1,5 +1,7 @@
 # Yarn app
 
+Sample app developed with TypeScript, Next.js and Styled Components.
+
 ## Prerequisites
 
 - Node 18.x
@@ -85,7 +87,7 @@ A few of the choices/decisions I've made:
 - Migrated to TypeScript to enhance type safety across the project.
 - Did not upgrade library versions besides focusing on removing high vulnerabilities.
 - To ensure accessibility was covered I used tools like Wave and Axe browser extensions and tested with Mac's VoiceOver screen reader.
-- Introduced a Skeleton Loading to enhance perceived performance during data fetching.
+- Introduced a Skeleton Loader to enhance perceived performance during data fetching.
 - Implemented debouncing in the search input to avoid unnecessary API queries while the user is still typing.
 - Used UserMessage component to give feedback to the user in the case of errors, informational messages or edge cases. This uses aria-live to announce changes to screen reader users.
 
